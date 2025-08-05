@@ -175,6 +175,16 @@ export const WizardProvider: React.FC<WizardProviderProps> = ({ children }) => {
   }, []);
 
   useEffect(() => {
+    const autoSaveInterval = setInterval(() => {
+      if (businessInfo || project || selectedTemplate || selectedColors) {
+        saveDraft();
+      }
+    }, 30000);
+
+    return () => clearInterval(autoSaveInterval);
+  }, [businessInfo, project, selectedTemplate, selectedColors, selectedModules]);
+
+  useEffect(() => {
     if (businessInfo || project || selectedTemplate || selectedColors) {
       saveDraft();
     }

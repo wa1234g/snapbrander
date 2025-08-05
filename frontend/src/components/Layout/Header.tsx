@@ -22,6 +22,44 @@ const Header: React.FC = () => {
             </div>
           </div>
 
+          <nav className="hidden md:flex items-center space-x-8 space-x-reverse">
+            {user ? (
+              <>
+                <a href="/dashboard" className="text-gray-700 hover:text-blue-600 transition-colors">
+                  لوحة التحكم
+                </a>
+                <a href="/billing" className="text-gray-700 hover:text-blue-600 transition-colors">
+                  الفواتير
+                </a>
+                {user.role === 'admin' && (
+                  <>
+                    <a href="/admin" className="text-gray-700 hover:text-blue-600 transition-colors">
+                      إدارة النظام
+                    </a>
+                    <a href="/analytics" className="text-gray-700 hover:text-blue-600 transition-colors">
+                      التحليلات
+                    </a>
+                  </>
+                )}
+              </>
+            ) : (
+              <>
+                <a href="/templates" className="text-gray-700 hover:text-blue-600 transition-colors">
+                  القوالب
+                </a>
+                <a href="/pricing" className="text-gray-700 hover:text-blue-600 transition-colors">
+                  الأسعار
+                </a>
+                <a href="/about" className="text-gray-700 hover:text-blue-600 transition-colors">
+                  من نحن
+                </a>
+                <a href="/contact" className="text-gray-700 hover:text-blue-600 transition-colors">
+                  تواصل معنا
+                </a>
+              </>
+            )}
+          </nav>
+
           <div className="flex items-center space-x-4 rtl:space-x-reverse">
             <button
               onClick={toggleLanguage}

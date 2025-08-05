@@ -7,6 +7,11 @@ import Header from './components/Layout/Header';
 import StepIndicator from './components/Wizard/StepIndicator';
 import WizardContent from './components/Wizard/WizardContent';
 import RegisterPageComponent from './pages/RegisterPage';
+import AdminDashboard from './pages/AdminDashboard';
+import CustomerDashboard from './pages/CustomerDashboard';
+import BillingPage from './pages/BillingPage';
+import AnalyticsDashboard from './pages/AnalyticsDashboard';
+import SettingsPage from './pages/SettingsPage';
 import './i18n';
 
 const queryClient = new QueryClient();
@@ -188,6 +193,31 @@ function App() {
                   </ProtectedRoute>
                 }
               />
+              <Route path="/admin" element={
+                <ProtectedRoute>
+                  <AdminDashboard />
+                </ProtectedRoute>
+              } />
+              <Route path="/dashboard" element={
+                <ProtectedRoute>
+                  <CustomerDashboard />
+                </ProtectedRoute>
+              } />
+              <Route path="/billing" element={
+                <ProtectedRoute>
+                  <BillingPage />
+                </ProtectedRoute>
+              } />
+              <Route path="/analytics" element={
+                <ProtectedRoute>
+                  <AnalyticsDashboard />
+                </ProtectedRoute>
+              } />
+              <Route path="/settings" element={
+                <ProtectedRoute>
+                  <SettingsPage />
+                </ProtectedRoute>
+              } />
               <Route path="/" element={<Navigate to="/wizard" replace />} />
             </Routes>
           </div>
