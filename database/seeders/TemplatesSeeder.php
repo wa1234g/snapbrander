@@ -11,6 +11,24 @@ class TemplatesSeeder extends Seeder
     {
         $templates = [
             [
+                'name' => 'Famosa Digital Marketing Agency',
+                'description' => 'Professional digital marketing agency template with modern design and comprehensive pages',
+                'category' => 'business',
+                'preview_image' => 'templates/famosa-digital-marketing-agency/screenshots/home.png',
+                'template_kit_path' => 'templates/famosa-digital-marketing-agency',
+                'requires_woocommerce' => false,
+                'color_schemes' => [
+                    'default' => ['#3B82F6', '#64748B', '#F59E0B', '#FFFFFF', '#1F2937'],
+                    'dark' => ['#1F2937', '#374151', '#F59E0B', '#111827', '#F9FAFB'],
+                    'agency' => ['#6366F1', '#8B5CF6', '#F59E0B', '#FFFFFF', '#1F2937'],
+                ],
+                'demo_data' => [
+                    'pages' => ['home', 'about-us', 'our-service', 'portofolio', 'testimonials', 'pricing', 'faq', 'contact-us', 'blog'],
+                    'features' => ['responsive', 'seo-optimized', 'elementor-pro', 'contact-forms'],
+                ],
+                'sort_order' => 1,
+            ],
+            [
                 'name' => 'Modern Business',
                 'description' => 'A clean and modern template for business websites',
                 'category' => 'business',
@@ -25,7 +43,7 @@ class TemplatesSeeder extends Seeder
                     'pages' => ['home', 'about', 'services', 'contact'],
                     'features' => ['responsive', 'seo-optimized'],
                 ],
-                'sort_order' => 1,
+                'sort_order' => 2,
             ],
             [
                 'name' => 'E-commerce Store',
@@ -42,7 +60,7 @@ class TemplatesSeeder extends Seeder
                     'pages' => ['home', 'shop', 'product', 'cart', 'checkout'],
                     'features' => ['woocommerce', 'payment-gateway', 'inventory'],
                 ],
-                'sort_order' => 2,
+                'sort_order' => 3,
             ],
             [
                 'name' => 'Landing Page Pro',
@@ -59,7 +77,7 @@ class TemplatesSeeder extends Seeder
                     'pages' => ['landing'],
                     'features' => ['conversion-optimized', 'lead-capture'],
                 ],
-                'sort_order' => 3,
+                'sort_order' => 4,
             ],
             [
                 'name' => 'Creative Portfolio',
@@ -76,7 +94,7 @@ class TemplatesSeeder extends Seeder
                     'pages' => ['home', 'portfolio', 'about', 'contact'],
                     'features' => ['gallery', 'lightbox', 'animations'],
                 ],
-                'sort_order' => 4,
+                'sort_order' => 5,
             ],
         ];
 
