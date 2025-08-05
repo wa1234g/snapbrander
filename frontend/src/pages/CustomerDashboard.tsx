@@ -103,7 +103,7 @@ const CustomerDashboard: React.FC = () => {
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50" style={{ fontFamily: 'Cairo, sans-serif' }}>
       <div className="container mx-auto px-4 py-8">
         <div className="mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-2">مرحباً، {user?.name}</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-2">مرحباً، {user?.name || 'المستخدم'}</h1>
           <p className="text-gray-600">إدارة مشاريعك ومواقعك الإلكترونية</p>
         </div>
 
@@ -271,11 +271,11 @@ const CustomerDashboard: React.FC = () => {
                 <div className="space-y-3">
                   <div className="flex items-center justify-between">
                     <span className="text-gray-600">الباقة</span>
-                    <span className="font-semibold text-gray-900">{subscription.plan.name}</span>
+                    <span className="text-lg font-semibold text-blue-600">{subscription.plan?.name || 'غير محدد'}</span>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-gray-600">الحالة</span>
-                    <span className={`px-2 py-1 rounded-full text-sm font-medium ${
+                    <span className={`px-3 py-1 rounded-full text-sm font-medium ${
                       subscription.status === 'active' ? 'bg-green-100 text-green-800' : 'bg-red-100 text-red-800'
                     }`}>
                       {subscription.status === 'active' ? 'نشط' : 'غير نشط'}
@@ -284,7 +284,7 @@ const CustomerDashboard: React.FC = () => {
                   <div className="flex items-center justify-between">
                     <span className="text-gray-600">تاريخ التجديد</span>
                     <span className="text-gray-900">
-                      {new Date(subscription.current_period_end).toLocaleDateString('ar-EG')}
+                      {subscription.current_period_end ? new Date(subscription.current_period_end).toLocaleDateString('ar-EG') : 'غير محدد'}
                     </span>
                   </div>
                 </div>
