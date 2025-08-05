@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { useWizard } from '../../contexts/WizardContext';
-import { templateApi } from '../../services/api';
+import { templateApi, projectApi } from '../../services/api';
 
 import { Template } from '../../types';
 
 const TemplateSelectionStep: React.FC = () => {
-  const { businessInfo, selectedTemplate, setSelectedTemplate, nextStep, prevStep } = useWizard();
+  const { businessInfo, project, selectedTemplate, setSelectedTemplate, nextStep, prevStep } = useWizard();
   
   const [templates, setTemplates] = useState<Template[]>([]);
   const [filteredTemplates, setFilteredTemplates] = useState<Template[]>([]);
@@ -55,8 +55,17 @@ const TemplateSelectionStep: React.FC = () => {
     setFilteredTemplates(filtered);
   };
 
-  const handleTemplateSelect = (template: Template) => {
-    setSelectedTemplate(template);
+  const handleTemplateSelect = async (template: Template) => {
+    try {
+      setSelectedTemplate(template);
+      
+      if (project?.id) {
+        await projectApi.selectTemplate(project.id, template.id);
+      }
+    } catch (err: any) {
+      console.error('Failed to select template:', err);
+      setError('فشل في حفظ اختيار القالب');
+    }
   };
 
   const handleNext = () => {
