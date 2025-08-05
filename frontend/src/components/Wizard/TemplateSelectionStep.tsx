@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useWizard } from '../../contexts/WizardContext';
-import { useTranslation } from 'react-i18next';
 import { templateApi } from '../../services/api';
 
 import { Template } from '../../types';

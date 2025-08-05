@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useWizard } from '../../contexts/WizardContext';
-import { useTranslation } from 'react-i18next';
 import { aiApi } from '../../services/api';
 
 const ProjectDescriptionStep: React.FC = () => {
   const { businessInfo, project, setProject, nextStep, prevStep } = useWizard();
-  const { t } = useTranslation();
   
   const [description, setDescription] = useState(project?.description || '');
   const [isGenerating, setIsGenerating] = useState(false);

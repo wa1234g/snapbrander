@@ -46,6 +46,7 @@ export interface Template {
   template_kit_path: string;
   demo_data?: any;
   requires_woocommerce: boolean;
+  business_types: string[];
   color_schemes?: any;
   is_active: boolean;
   sort_order: number;
