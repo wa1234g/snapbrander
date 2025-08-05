@@ -13,19 +13,19 @@ const WizardContent: React.FC = () => {
 
   const renderStep = () => {
     switch (currentStep) {
-      case 1:
+      case 0:
         return <BusinessInfoStep />;
-      case 2:
+      case 1:
         return <ProjectDescriptionStep />;
-      case 3:
+      case 2:
         return <TemplateSelectionStep />;
-      case 4:
+      case 3:
         return <ColorSelectionStep />;
-      case 5:
+      case 4:
         return <LogoStep />;
-      case 6:
+      case 5:
         return <ModulesStep />;
-      case 7:
+      case 6:
         return <GenerationStep />;
       default:
         return <BusinessInfoStep />;
