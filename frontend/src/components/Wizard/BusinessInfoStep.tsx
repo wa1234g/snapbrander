@@ -283,7 +283,7 @@ const BusinessInfoStep: React.FC = () => {
                   placeholder="اكتب وصفاً مختصراً عن نشاطك التجاري، أهدافه، والخدمات التي يقدمها، أو اتركه فارغاً ليقوم الذكاء الاصطناعي بتوليده تلقائياً..."
                 />
                 <div className="absolute bottom-4 left-4 text-sm text-gray-400">
-                  {formData.description.length} حرف
+                  {(formData.description || '').length} حرف
                 </div>
               </div>
             </div>
