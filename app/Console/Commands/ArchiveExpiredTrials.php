@@ -4,6 +4,7 @@ namespace App\Console\Commands;
 
 use App\Models\Project;
 use App\Models\Notification;
+use App\Jobs\SendTrialExpirationWarning;
 use Illuminate\Console\Command;
 
 class ArchiveExpiredTrials extends Command
@@ -12,6 +13,33 @@ class ArchiveExpiredTrials extends Command
     protected $description = 'Archive projects with expired trials';
 
     public function handle(): int
+    {
+        $this->sendTrialWarnings();
+        $this->archiveExpiredTrials();
+        return 0;
+    }
+
+    protected function sendTrialWarnings()
+    {
+        $warningTimes = [24, 6, 1];
+
+        foreach ($warningTimes as $hours) {
+            $projects = Project::where('status', 'active')
+                ->whereNotNull('trial_expires_at')
+                ->whereBetween('trial_expires_at', [
+                    now()->addHours($hours - 0.5),
+                    now()->addHours($hours + 0.5)
+                ])
+                ->get();
+
+            foreach ($projects as $project) {
+                SendTrialExpirationWarning::dispatch($project, $hours);
+                $this->info("Scheduled warning for project: {$project->business_name} ({$hours}h remaining)");
+            }
+        }
+    }
+
+    protected function archiveExpiredTrials()
     {
         $expiredProjects = Project::where('status', 'active')
             ->whereNotNull('trial_expires_at')
@@ -43,7 +71,5 @@ class ArchiveExpiredTrials extends Command
         }
 
         $this->info("Archived {$archivedCount} expired trial projects.");
-
-        return 0;
     }
 }
