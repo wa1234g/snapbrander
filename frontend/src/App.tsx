@@ -2,12 +2,11 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
-import { WizardProvider, useWizard } from './contexts/WizardContext';
+import { WizardProvider } from './contexts/WizardContext';
 import Header from './components/Layout/Header';
 import StepIndicator from './components/Wizard/StepIndicator';
-import BusinessInfoStep from './components/Wizard/BusinessInfoStep';
-import ProjectDescriptionStep from './components/Wizard/ProjectDescriptionStep';
-import TemplateSelectionStep from './components/Wizard/TemplateSelectionStep';
+import WizardContent from './components/Wizard/WizardContent';
+import RegisterPageComponent from './pages/RegisterPage';
 import './i18n';
 
 const queryClient = new QueryClient();
@@ -33,42 +32,12 @@ const ProtectedRoute: React.FC<{ children: React.ReactNode }> = ({ children }) =
 const WizardLayout: React.FC = () => {
   return (
     <WizardProvider>
-      <WizardContent />
+      <div className="min-h-screen bg-gray-50 font-cairo">
+        <Header />
+        <StepIndicator />
+        <WizardContent />
+      </div>
     </WizardProvider>
-  );
-};
-
-const WizardContent: React.FC = () => {
-  const { currentStep } = useWizard();
-
-  const renderStep = () => {
-    switch (currentStep) {
-      case 0:
-        return <BusinessInfoStep />;
-      case 1:
-        return <ProjectDescriptionStep />;
-      case 2:
-        return <TemplateSelectionStep />;
-      default:
-        return (
-          <div className="text-center">
-            <h2 className="text-2xl font-bold mb-4">الخطوة {currentStep + 1}</h2>
-            <p>هذه الخطوة قيد التطوير</p>
-          </div>
-        );
-    }
-  };
-
-  return (
-    <div className="min-h-screen bg-gray-50">
-      <Header />
-      <StepIndicator />
-      <main className="py-8">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {renderStep()}
-        </div>
-      </main>
-    </div>
   );
 };
 
@@ -438,7 +407,7 @@ function App() {
           <div className="App" dir="rtl">
             <Routes>
               <Route path="/login" element={<LoginPage />} />
-              <Route path="/register" element={<RegisterPage />} />
+              <Route path="/register" element={<RegisterPageComponent />} />
               <Route
                 path="/wizard"
                 element={

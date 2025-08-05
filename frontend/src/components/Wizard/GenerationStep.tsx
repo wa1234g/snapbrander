@@ -3,7 +3,7 @@ import { useWizard } from '../../contexts/WizardContext';
 import { projectApi } from '../../services/api';
 
 const GenerationStep: React.FC = () => {
-  const { businessInfo, project, setProject } = useWizard();
+  const { project, setProject } = useWizard();
   
   const [isGenerating, setIsGenerating] = useState(false);
   const [generationProgress, setGenerationProgress] = useState(0);
@@ -98,7 +98,7 @@ const GenerationStep: React.FC = () => {
                     <div className="flex items-center mt-1">
                       <input
                         type="text"
-                        value={siteDetails.site_url || `https://${project.subdomain}.fureraa.com`}
+                        value={siteDetails.site_url || `https://${project?.subdomain || 'your-site'}.fureraa.com`}
                         readOnly
                         className="flex-1 px-3 py-2 bg-white border border-gray-300 rounded-lg text-sm"
                       />
