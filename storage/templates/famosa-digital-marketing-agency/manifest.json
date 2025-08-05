@@ -1,0 +1,1158 @@
+{
+    "manifest_version": "1.0.23",
+    "title": "Famosa - Digital Marketing Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/kits.yumnatype.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pre Footer",
+            "screenshot": "screenshots\/pre-footer.png",
+            "source": "templates\/pre-footer.json",
+            "preview_url": "https:\/\/kits.yumnatype.com\/famosa\/template-kit\/pre-footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.png",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/kits.yumnatype.com\/famosa\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Main Header",
+            "screenshot": "screenshots\/main-header.png",
+            "source": "templates\/main-header.json",
+            "preview_url": "https:\/\/kits.yumnatype.com\/famosa\/template-kit\/main-header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "MetForm Contact Us",
+            "screenshot": "screenshots\/metform-contact-us.png",
+            "source": "templates\/metform-contact-us.json",
+            "preview_url": "https:\/\/kits.yumnatype.com\/famosa\/template-kit\/metform-contact-us\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "MetForm News Letter Footer",
+            "screenshot": "screenshots\/metform-news-letter-footer.png",
+            "source": "templates\/metform-news-letter-footer.json",
+            "preview_url": "https:\/\/kits.yumnatype.com\/famosa\/template-kit\/metform-news-letter-footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.png",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/kits.yumnatype.com\/famosa\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.png",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/kits.yumnatype.com\/famosa\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact Us",
+            "screenshot": "screenshots\/contact-us.png",
+            "source": "templates\/contact-us.json",
+            "preview_url": "https:\/\/kits.yumnatype.com\/famosa\/template-kit\/contact-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Portofolio",
+            "screenshot": "screenshots\/portofolio.png",
+            "source": "templates\/portofolio.json",
+            "preview_url": "https:\/\/kits.yumnatype.com\/famosa\/template-kit\/portofolio\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Testimonials",
+            "screenshot": "screenshots\/testimonials.png",
+            "source": "templates\/testimonials.json",
+            "preview_url": "https:\/\/kits.yumnatype.com\/famosa\/template-kit\/testimonials\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.png",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/kits.yumnatype.com\/famosa\/template-kit\/single-post\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.png",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/kits.yumnatype.com\/famosa\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.png",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/kits.yumnatype.com\/famosa\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Service",
+            "screenshot": "screenshots\/our-service.png",
+            "source": "templates\/our-service.json",
+            "preview_url": "https:\/\/kits.yumnatype.com\/famosa\/template-kit\/our-service\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.png",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/kits.yumnatype.com\/famosa\/template-kit\/home\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.27.3",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "3.4.0",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Envato Elements",
+            "version": "2.0.12",
+            "file": "envato-elements\/envato-elements.php",
+            "author": "Envato"
+        },
+        {
+            "name": "Gum Elementor Addon",
+            "version": "1.3.10",
+            "file": "gum-elementor-addon\/gum-elementor-addon.php",
+            "author": "TemeGUM"
+        },
+        {
+            "name": "Ultimate Addons for Elementor Lite",
+            "version": "2.2.0",
+            "file": "header-footer-elementor\/header-footer-elementor.php",
+            "author": "Brainstorm Force"
+        },
+        {
+            "name": "Jeg Elementor Kit",
+            "version": "2.6.11",
+            "file": "jeg-elementor-kit\/jeg-elementor-kit.php",
+            "author": "Jegtheme"
+        },
+        {
+            "name": "MetForm",
+            "version": "3.9.2",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        }
+    ],
+    "images": [
+        {
+            "filename": "business-colleagues-discussion-laptop-concept-2023-11-27-04-51-19-utc-Custom-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/business-colleagues-discussion-laptop-concept-2023-11-27-04-51-19-utc-Custom-1-800x511.jpg",
+            "templates": [
+                {
+                    "source": "templates\/pre-footer.json",
+                    "name": "Pre Footer"
+                }
+            ],
+            "filesize": 173041,
+            "dimensions": [
+                2000,
+                1278
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/business-colleagues-discussion-laptop-concept-PEHDJ5Q"
+        },
+        {
+            "filename": "logo-famosa-putih.png",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/logo-famosa-putih.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 3183,
+            "dimensions": [
+                274,
+                47
+            ],
+            "image_source": "self_created",
+            "image_urls": "#"
+        },
+        {
+            "filename": "interior-of-industrial-style-coworking-office-2023-11-27-04-49-22-utc-Custom-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/interior-of-industrial-style-coworking-office-2023-11-27-04-49-22-utc-Custom-1-800x527.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/portofolio.json",
+                    "name": "Portofolio"
+                }
+            ],
+            "filesize": 237527,
+            "dimensions": [
+                2000,
+                1318
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/interior-modern-open-space-office-3d-illustration-7XGDKWR"
+        },
+        {
+            "filename": "businessman-using-laptop-to-discuss-information-wi-2024-10-31-01-59-23-utc-Custom-3.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/businessman-using-laptop-to-discuss-information-wi-2024-10-31-01-59-23-utc-Custom-3-800x499.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 146642,
+            "dimensions": [
+                2000,
+                1247
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/businessman-using-laptop-to-discuss-information-wi-TNJR4BN"
+        },
+        {
+            "filename": "smiling-modern-businessman-working-in-cafe-2023-11-27-05-05-03-utc-Custom-2.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/smiling-modern-businessman-working-in-cafe-2023-11-27-05-05-03-utc-Custom-2-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 184104,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/smiling-modern-businessman-working-in-cafe-73FNUW6"
+        },
+        {
+            "filename": "interior-of-modern-office-room-3d-rendering-2024-10-16-20-27-00-utc-Custom-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/interior-of-modern-office-room-3d-rendering-2024-10-16-20-27-00-utc-Custom-1-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/portofolio.json",
+                    "name": "Portofolio"
+                }
+            ],
+            "filesize": 221130,
+            "dimensions": [
+                2000,
+                1126
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/interior-of-modern-office-room-3d-rendering-6VYRS88"
+        },
+        {
+            "filename": "logo-famosa.png",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/02\/logo-famosa.png",
+            "templates": [
+                {
+                    "source": "templates\/main-header.json",
+                    "name": "Main Header"
+                }
+            ],
+            "filesize": 4007,
+            "dimensions": [
+                274,
+                47
+            ],
+            "image_source": "self_created",
+            "image_urls": "#"
+        },
+        {
+            "filename": "BG-ornament.png",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/BG-ornament-800x160.png",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                },
+                {
+                    "source": "templates\/portofolio.json",
+                    "name": "Portofolio"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/our-service.json",
+                    "name": "Our Service"
+                }
+            ],
+            "filesize": 26911,
+            "dimensions": [
+                1200,
+                240
+            ],
+            "image_source": "self_created",
+            "image_urls": "#"
+        },
+        {
+            "filename": "i-look-forward-to-doing-business-with-you-2024-08-27-16-57-45-utc-removebg-preview.png",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/i-look-forward-to-doing-business-with-you-2024-08-27-16-57-45-utc-removebg-preview.png",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 229521,
+            "dimensions": [
+                455,
+                548
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/i-look-forward-to-doing-business-with-you-LBPPFCR"
+        },
+        {
+            "filename": "modern-businessman-speaking-by-phone-in-sunlight-2023-11-27-05-09-05-utc-1-Custom-e1737431306689.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/modern-businessman-speaking-by-phone-in-sunlight-2023-11-27-05-09-05-utc-1-Custom-e1737431306689-800x589.jpg",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 228079,
+            "dimensions": [
+                1813,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/modern-businessman-speaking-by-phone-in-sunlight-YTSADY4"
+        },
+        {
+            "filename": "colorful-business-co-working-space-and-meeting-and-2025-01-08-09-11-08-utc-Custom.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/colorful-business-co-working-space-and-meeting-and-2025-01-08-09-11-08-utc-Custom-800x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 155457,
+            "dimensions": [
+                1200,
+                900
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/colorful-business-co-working-space-and-meeting-and-KY4KB5U"
+        },
+        {
+            "filename": "3d-rendering-business-meeting-and-green-working-ro-2025-01-08-23-21-56-utc-Custom-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/3d-rendering-business-meeting-and-green-working-ro-2025-01-08-23-21-56-utc-Custom-1-800x501.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact-us.json",
+                    "name": "Contact Us"
+                }
+            ],
+            "filesize": 249239,
+            "dimensions": [
+                2000,
+                1253
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/3d-rendering-business-meeting-and-green-working-ro-S2M2NBJ"
+        },
+        {
+            "filename": "modern-empty-office-interior-2023-11-27-05-31-02-utc-Custom-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/modern-empty-office-interior-2023-11-27-05-31-02-utc-Custom-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portofolio.json",
+                    "name": "Portofolio"
+                }
+            ],
+            "filesize": 176014,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/modern-empty-office-interior-E8Q7G8N"
+        },
+        {
+            "filename": "modern-office-interior-2023-11-27-05-22-04-utc-Custom-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/modern-office-interior-2023-11-27-05-22-04-utc-Custom-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portofolio.json",
+                    "name": "Portofolio"
+                }
+            ],
+            "filesize": 164155,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/modern-office-interior-NV9CEF7"
+        },
+        {
+            "filename": "office-interior-2023-11-27-04-51-56-utc-Custom-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/office-interior-2023-11-27-04-51-56-utc-Custom-1-800x532.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portofolio.json",
+                    "name": "Portofolio"
+                }
+            ],
+            "filesize": 204817,
+            "dimensions": [
+                2000,
+                1331
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/office-interior-QUQ6V9E"
+        },
+        {
+            "filename": "interior-of-modern-office-room-3d-rendering-2024-10-12-06-12-25-utc-Custom-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/interior-of-modern-office-room-3d-rendering-2024-10-12-06-12-25-utc-Custom-1-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portofolio.json",
+                    "name": "Portofolio"
+                }
+            ],
+            "filesize": 249493,
+            "dimensions": [
+                2000,
+                1126
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/interior-of-modern-office-room-3d-rendering-9CSWYYD"
+        },
+        {
+            "filename": "modern-office-interior-2023-11-27-04-56-06-utc-Custom-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/modern-office-interior-2023-11-27-04-56-06-utc-Custom-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portofolio.json",
+                    "name": "Portofolio"
+                }
+            ],
+            "filesize": 133850,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/modern-office-interior-H47XCRZ"
+        },
+        {
+            "filename": "interior-of-modern-hotel-reception-2023-11-27-04-55-32-utc-Custom-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/interior-of-modern-hotel-reception-2023-11-27-04-55-32-utc-Custom-1-800x546.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portofolio.json",
+                    "name": "Portofolio"
+                }
+            ],
+            "filesize": 224006,
+            "dimensions": [
+                2000,
+                1366
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/interior-of-modern-hotel-reception-PC4YC2P"
+        },
+        {
+            "filename": "gray-and-orange-modern-boardroom-2025-01-08-15-20-37-utc-Custom-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/gray-and-orange-modern-boardroom-2025-01-08-15-20-37-utc-Custom-1-800x480.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portofolio.json",
+                    "name": "Portofolio"
+                }
+            ],
+            "filesize": 107052,
+            "dimensions": [
+                2000,
+                1199
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/gray-and-orange-modern-boardroom-P56BUXT"
+        },
+        {
+            "filename": "orange-and-gray-modern-office-2025-01-08-02-29-46-utc-Custom-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/orange-and-gray-modern-office-2025-01-08-02-29-46-utc-Custom-1-800x490.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portofolio.json",
+                    "name": "Portofolio"
+                }
+            ],
+            "filesize": 117900,
+            "dimensions": [
+                2000,
+                1225
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/orange-and-gray-modern-office-P8CTUX4"
+        },
+        {
+            "filename": "interior-modern-open-space-office-3d-illustration-2024-10-18-04-54-34-utc-Custom-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/interior-modern-open-space-office-3d-illustration-2024-10-18-04-54-34-utc-Custom-1-800x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portofolio.json",
+                    "name": "Portofolio"
+                }
+            ],
+            "filesize": 185159,
+            "dimensions": [
+                2000,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/interior-modern-open-space-office-3d-illustration-7XGDKWR"
+        },
+        {
+            "filename": "interior-modern-open-space-office-3d-illustration-2024-10-17-06-46-06-utc-Custom-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/interior-modern-open-space-office-3d-illustration-2024-10-17-06-46-06-utc-Custom-1-800x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portofolio.json",
+                    "name": "Portofolio"
+                }
+            ],
+            "filesize": 239460,
+            "dimensions": [
+                2000,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/interior-modern-open-space-office-3d-illustration-9YJLK3M"
+        },
+        {
+            "filename": "people-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/people-1-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portofolio.json",
+                    "name": "Portofolio"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 130701,
+            "dimensions": [
+                999,
+                999
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "people-2.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/people-2-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portofolio.json",
+                    "name": "Portofolio"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 154031,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "people-3.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/people-3-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/portofolio.json",
+                    "name": "Portofolio"
+                },
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 147373,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/collection-of-multiethnic-business-people-portrait-YK2UXCU"
+        },
+        {
+            "filename": "happy-hispanic-bald-bearded-businessman-with-eyegl-2023-11-27-05-00-00-utc-Custom-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/happy-hispanic-bald-bearded-businessman-with-eyegl-2023-11-27-05-00-00-utc-Custom-1-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 172044,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/happy-hispanic-bald-bearded-businessman-with-eyegl-RL3QV27"
+        },
+        {
+            "filename": "format_quote.png",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/format_quote.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 3787,
+            "dimensions": [
+                187,
+                132
+            ],
+            "image_source": "self_created",
+            "image_urls": "#"
+        },
+        {
+            "filename": "format_quote_secondary.png",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/format_quote_secondary.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                }
+            ],
+            "filesize": 2498,
+            "dimensions": [
+                158,
+                199
+            ],
+            "image_source": "self_created",
+            "image_urls": "#"
+        },
+        {
+            "filename": "Logo-1.png",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/Logo-1-800x145.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/our-service.json",
+                    "name": "Our Service"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 12212,
+            "dimensions": [
+                825,
+                150
+            ],
+            "image_source": "commercial_license",
+            "image_urls": "https:\/\/logoipsum.com\/artwork\/325"
+        },
+        {
+            "filename": "Logo-2.png",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/Logo-2-800x159.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/our-service.json",
+                    "name": "Our Service"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 11770,
+            "dimensions": [
+                825,
+                164
+            ],
+            "image_source": "commercial_license",
+            "image_urls": "https:\/\/logoipsum.com\/artwork\/297"
+        },
+        {
+            "filename": "Logo-3.png",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/Logo-3-800x196.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/our-service.json",
+                    "name": "Our Service"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 17662,
+            "dimensions": [
+                825,
+                202
+            ],
+            "image_source": "commercial_license",
+            "image_urls": "https:\/\/logoipsum.com\/artwork\/265"
+        },
+        {
+            "filename": "Logo-4.png",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/Logo-4-800x211.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/our-service.json",
+                    "name": "Our Service"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 28917,
+            "dimensions": [
+                825,
+                218
+            ],
+            "image_source": "commercial_license",
+            "image_urls": "https:\/\/logoipsum.com\/artwork\/263"
+        },
+        {
+            "filename": "Logo-5.png",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/Logo-5-800x207.png",
+            "templates": [
+                {
+                    "source": "templates\/testimonials.json",
+                    "name": "Testimonials"
+                },
+                {
+                    "source": "templates\/our-service.json",
+                    "name": "Our Service"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 14160,
+            "dimensions": [
+                825,
+                213
+            ],
+            "image_source": "commercial_license",
+            "image_urls": "https:\/\/logoipsum.com\/artwork\/264"
+        },
+        {
+            "filename": "young-smiling-businessman-in-classic-black-jacket-2024-10-18-10-03-43-utc-Custom-2.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/young-smiling-businessman-in-classic-black-jacket-2024-10-18-10-03-43-utc-Custom-2-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 122286,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/young-smiling-businessman-in-classic-black-jacket--PZWSXMU"
+        },
+        {
+            "filename": "side-view-of-young-happy-caucasian-businessman-usi-2023-11-27-05-30-44-utc-Custom-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/side-view-of-young-happy-caucasian-businessman-usi-2023-11-27-05-30-44-utc-Custom-1-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 126828,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/side-view-of-young-happy-caucasian-businessman-usi-VHLCAJ4"
+        },
+        {
+            "filename": "caucasian-businessman-use-of-tablet-computer-in-ho-2023-11-27-05-15-44-utc-Custom-e1737432346988.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/caucasian-businessman-use-of-tablet-computer-in-ho-2023-11-27-05-15-44-utc-Custom-e1737432346988-800x621.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 151450,
+            "dimensions": [
+                1360,
+                1055
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/caucasian-businessman-use-of-tablet-computer-in-ho-WFY678G"
+        },
+        {
+            "filename": "portrait-of-young-businessman-in-the-streets-outdo-2023-11-27-04-53-33-utc-Custom-e1737432634640.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/portrait-of-young-businessman-in-the-streets-outdo-2023-11-27-04-53-33-utc-Custom-e1737432634640-800x738.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 209734,
+            "dimensions": [
+                1447,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-young-businessman-in-the-streets-outdo-ECXN8FS"
+        },
+        {
+            "filename": "face-of-japanese-businessman-with-eyeglasses-outdo-2023-11-27-05-25-09-utc-Custom-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/face-of-japanese-businessman-with-eyeglasses-outdo-2023-11-27-05-25-09-utc-Custom-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 104419,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/face-of-japanese-businessman-with-eyeglasses-outdo-DH99UHL"
+        },
+        {
+            "filename": "portrait-of-happy-mature-bald-businessman-smiling-2023-11-27-05-27-46-utc-Custom.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/portrait-of-happy-mature-bald-businessman-smiling-2023-11-27-05-27-46-utc-Custom-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 201163,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/portrait-of-happy-mature-bald-businessman-smiling--CX9RNRQ"
+        },
+        {
+            "filename": "happy-hispanic-bald-bearded-businessman-with-eyegl-2023-11-27-05-15-48-utc-Custom-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/happy-hispanic-bald-bearded-businessman-with-eyegl-2023-11-27-05-15-48-utc-Custom-1-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 183013,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/happy-hispanic-bald-bearded-businessman-with-eyegl-GKSQD9X"
+        },
+        {
+            "filename": "Maps.png",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/Maps-800x422.png",
+            "templates": [
+                {
+                    "source": "templates\/our-service.json",
+                    "name": "Our Service"
+                }
+            ],
+            "filesize": 89622,
+            "dimensions": [
+                998,
+                527
+            ],
+            "image_source": "self_created",
+            "image_urls": "#"
+        },
+        {
+            "filename": "asian-businessman-standing-at-office-window-2024-09-21-20-01-30-utc-Custom-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/asian-businessman-standing-at-office-window-2024-09-21-20-01-30-utc-Custom-1-800x532.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 104272,
+            "dimensions": [
+                2000,
+                1331
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/asian-businessman-standing-at-office-window-6V9F4LE"
+        },
+        {
+            "filename": "young-smiling-businessman-in-classic-black-jacket-2024-10-18-10-03-43-utc-Custom-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/young-smiling-businessman-in-classic-black-jacket-2024-10-18-10-03-43-utc-Custom-1-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 122286,
+            "dimensions": [
+                2000,
+                1333
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/young-smiling-businessman-in-classic-black-jacket--PZWSXMU"
+        },
+        {
+            "filename": "businessman-using-laptop-to-discuss-information-wi-2024-10-31-01-59-23-utc-Custom-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/businessman-using-laptop-to-discuss-information-wi-2024-10-31-01-59-23-utc-Custom-1-800x499.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 146642,
+            "dimensions": [
+                2000,
+                1247
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/businessman-using-laptop-to-discuss-information-wi-TNJR4BN"
+        },
+        {
+            "filename": "smiling-modern-businessman-working-in-cafe-2023-11-27-05-05-03-utc-Custom-1.jpg",
+            "thumbnail_url": "https:\/\/kits.yumnatype.com\/famosa\/wp-content\/uploads\/sites\/14\/2025\/01\/smiling-modern-businessman-working-in-cafe-2023-11-27-05-05-03-utc-Custom-1-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 184104,
+            "dimensions": [
+                2000,
+                1335
+            ],
+            "image_source": "envato_elements",
+            "image_urls": "https:\/\/elements.envato.com\/smiling-modern-businessman-working-in-cafe-73FNUW6"
+        }
+    ]
+}
