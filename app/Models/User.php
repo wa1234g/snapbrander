@@ -92,6 +92,21 @@ class User extends Authenticatable
         return $this->hasMany(MarketplaceItem::class, 'seller_id');
     }
 
+    public function payments(): HasMany
+    {
+        return $this->hasMany(Payment::class);
+    }
+
+    public function subscriptions(): HasMany
+    {
+        return $this->hasMany(Subscription::class);
+    }
+
+    public function invoices(): HasMany
+    {
+        return $this->hasMany(Invoice::class);
+    }
+
     public function isAdmin(): bool
     {
         return $this->role === 'admin';

@@ -11,6 +11,10 @@ use App\Http\Controllers\Api\SettingsController;
 use App\Http\Controllers\Api\ModuleController;
 use App\Http\Controllers\Api\MediaController;
 use App\Http\Controllers\Api\TeamController;
+use App\Http\Controllers\Api\AdminController;
+use App\Http\Controllers\Api\PaymentController;
+use App\Http\Controllers\Api\SubscriptionController;
+use App\Http\Controllers\Api\AnalyticsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -94,11 +98,31 @@ Route::middleware('auth:sanctum')->group(function () {
         Route::put('/', [SettingsController::class, 'update']);
     });
 
+    Route::prefix('payments')->group(function () {
+        Route::get('plans', [PaymentController::class, 'plans']);
+        Route::post('create-payment-intent', [PaymentController::class, 'createPaymentIntent']);
+        Route::post('confirm-payment', [PaymentController::class, 'confirmPayment']);
+        Route::get('invoices', [PaymentController::class, 'invoices']);
+    });
+
+    Route::prefix('subscriptions')->group(function () {
+        Route::get('/', [SubscriptionController::class, 'index']);
+        Route::post('/', [SubscriptionController::class, 'create']);
+        Route::put('{subscription}', [SubscriptionController::class, 'update']);
+        Route::delete('{subscription}', [SubscriptionController::class, 'cancel']);
+        Route::post('{subscription}/resume', [SubscriptionController::class, 'resume']);
+    });
+
     Route::middleware('admin')->prefix('admin')->group(function () {
+        Route::get('dashboard', [AdminController::class, 'dashboard']);
+        Route::get('projects', [AdminController::class, 'projects']);
+        Route::get('users', [AdminController::class, 'users']);
+        Route::post('projects/{project}/extend-trial', [AdminController::class, 'extendTrial']);
+        Route::delete('projects/{project}', [AdminController::class, 'deleteProject']);
+        Route::get('settings', [AdminController::class, 'systemSettings']);
+        Route::put('settings', [AdminController::class, 'updateSystemSettings']);
+        Route::get('analytics', [AnalyticsController::class, 'dashboard']);
         Route::apiResource('templates', TemplateController::class)->except(['index', 'show']);
         Route::apiResource('modules', ModuleController::class)->except(['index']);
-        Route::get('users', [AuthController::class, 'adminUsers']);
-        Route::get('projects', [ProjectController::class, 'adminIndex']);
-        Route::get('analytics', [ProjectController::class, 'analytics']);
     });
 });
