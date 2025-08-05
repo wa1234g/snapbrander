@@ -36,8 +36,15 @@ const TemplateSelectionStep: React.FC = () => {
     let filtered = templates;
 
     if (businessInfo?.business_type) {
+      const categoryMapping: { [key: string]: string[] } = {
+        'company': ['business', 'portfolio'],
+        'store': ['ecommerce', 'business'],
+        'landing': ['landing', 'business']
+      };
+      
+      const allowedCategories = categoryMapping[businessInfo.business_type] || ['business'];
       filtered = filtered.filter(template => 
-        template.business_types?.includes(businessInfo.business_type)
+        allowedCategories.includes(template.category)
       );
     }
 
