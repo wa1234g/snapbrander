@@ -170,8 +170,6 @@ const LoginPage: React.FC = () => {
   );
 };
 
-const RegisterPage: React.FC = () => {
-  const { register } = useAuth();
   const [formData, setFormData] = React.useState({
     name: '',
     email: '',
