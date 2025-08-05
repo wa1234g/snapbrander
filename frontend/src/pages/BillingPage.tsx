@@ -133,7 +133,7 @@ const BillingPage: React.FC = () => {
             <h2 className="text-2xl font-bold text-gray-900 mb-4">اشتراكك الحالي</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="text-center">
-                <h3 className="text-lg font-semibold text-gray-900">{subscription.plan.name}</h3>
+                <h3 className="text-lg font-semibold text-gray-900">{subscription.plan?.name || 'غير محدد'}</h3>
                 <p className="text-gray-600">الباقة الحالية</p>
               </div>
               <div className="text-center">
@@ -146,7 +146,7 @@ const BillingPage: React.FC = () => {
               </div>
               <div className="text-center">
                 <p className="text-lg font-semibold text-gray-900">
-                  {new Date(subscription.current_period_end).toLocaleDateString('ar-EG')}
+                  {subscription.current_period_end ? new Date(subscription.current_period_end).toLocaleDateString('ar-EG') : 'غير محدد'}
                 </p>
                 <p className="text-gray-600">تاريخ التجديد</p>
               </div>
@@ -222,9 +222,9 @@ const BillingPage: React.FC = () => {
 
                 <button
                   onClick={() => handleSubscribe(plan.id)}
-                  disabled={isProcessing || (subscription?.plan.id === plan.id && subscription.status === 'active')}
+                  disabled={isProcessing || (subscription?.plan?.id === plan.id && subscription.status === 'active')}
                   className={`w-full py-3 px-6 rounded-2xl font-medium transition-all duration-300 ${
-                    subscription?.plan.id === plan.id && subscription.status === 'active'
+                    subscription?.plan?.id === plan.id && subscription.status === 'active'
                       ? 'bg-gray-100 text-gray-500 cursor-not-allowed'
                       : plan.is_popular
                       ? 'bg-gradient-to-r from-blue-600 to-purple-600 text-white hover:from-blue-700 hover:to-purple-700'
@@ -232,7 +232,7 @@ const BillingPage: React.FC = () => {
                   }`}
                 >
                   {isProcessing ? 'جاري المعالجة...' : 
-                   subscription?.plan.id === plan.id && subscription.status === 'active' ? 'الباقة الحالية' : 'اشترك الآن'}
+                   subscription?.plan?.id === plan.id && subscription.status === 'active' ? 'الباقة الحالية' : 'اشترك الآن'}
                 </button>
               </div>
             ))}
